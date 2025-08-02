@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic HTML5 document setup with proper encoding and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center - Digital Novels</title>
+    
+    <!-- Link to main site stylesheets for consistent styling -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    
+    <!-- Custom styles for help center layout and components -->
+    <style>
+        /* Main container for help center content with responsive width */
+        .help-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header navigation area styling */
+        .help-nav {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        /* Help navigation title styling */
+        .help-nav h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        /* Grid layout for help category cards */
+        .help-categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        /* Individual help category card styling */
+        .help-category {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-left: 4px solid #007bff;
+        }
+        
+        /* Category title styling */
+        .help-category h3 {
+            margin-top: 0;
+            color: #007bff;
+        }
+        
+        /* Remove default list styling from category links */
+        .help-category ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        /* Spacing for category list items */
+        .help-category li {
+            margin: 10px 0;
+        }
+        
+        /* Category link styling */
+        .help-category a {
+            color: #333;
+        /* Category link styling with hover effects */
+        .help-category a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 0;
+            display: block;
+        }
+        
+        /* Link hover state styling */
+        .help-category a:hover {
+            color: #007bff;
+            text-decoration: underline;
+        }
+        
+        /* Search input box styling */
+        .search-box {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        /* Breadcrumb navigation styling */
+        .breadcrumb {
+            margin-bottom: 20px;
+            color: #666;
+        }
+        
+        /* Breadcrumb link styling */
+        .breadcrumb a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Simple Navigation Header for help center -->
+    <nav style="background: #f8f9fa; padding: 15px; margin-bottom: 20px;">
+        <!-- Centered navigation container with flexbox layout -->  
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <!-- Left side navigation links -->
+            <div>
+                <!-- Link back to main site -->
+                <a href="../index.php" style="text-decoration: none; color: #007bff; font-weight: bold; font-size: 18px;">Digital Novels</a>
+                <span style="margin: 0 10px; color: #666;">|</span>
+                <!-- Current page indicator -->
+                <a href="index.html" style="text-decoration: none; color: #007bff;">Help Center</a>
+            </div>
+            <!-- Right side back button -->
+            <a href="../index.php" style="background: #007bff; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px;">← Back to Site</a>
+        </div>
+    </nav>
+    
+    <!-- Main help center container -->
+    <div class="help-container">
+        <!-- Breadcrumb navigation showing current location -->
+        <div class="breadcrumb">
+            <a href="../index.php">Home</a> > Help Center
+        </div>
+        
+        <!-- Help center header with title and description -->
+        <div class="help-nav">
+            <h1>Digital Novels Help Center</h1>
+            <p>Welcome to our comprehensive help center. Find answers to your questions and learn how to make the most of Digital Novels.</p>
+        <!-- Help center header with title and description -->
+        <div class="help-nav">
+            <h1>Digital Novels Help Center</h1>
+            <p>Welcome to our comprehensive help center. Find answers to your questions and learn how to make the most of Digital Novels.</p>
+            
+            <!-- Search box for filtering help articles -->
+            <input type="text" class="search-box" placeholder="Search help articles..." id="helpSearch">
+        </div>
+
+        <!-- Grid container for help category cards -->
+        <div class="help-categories">
+            <!-- Getting Started category with onboarding topics -->
+            <div class="help-category">
+                <h3>Getting Started</h3>
+                <ul>
+                    <li><a href="getting-started.html">How to Get Started</a></li>
+                    <li><a href="getting-started.html#account">Creating Your Account</a></li>
+                    <li><a href="getting-started.html#navigation">Navigating the Site</a></li>
+                    <li><a href="getting-started.html#features">Key Features Overview</a></li>
+                </ul>
+            </div>
+
+            <!-- Account Management category with profile and security topics -->
+            <div class="help-category">
+                <h3>Account Management</h3>
+                <ul>
+                    <li><a href="account-management.html">Managing Your Profile</a></li>
+                    <li><a href="account-management.html#login">Login & Password</a></li>
+                    <li><a href="account-management.html#settings">Account Settings</a></li>
+                    <li><a href="account-management.html#security">Security & Privacy</a></li>
+                </ul>
+            </div>
+
+            <!-- Shopping & Orders category with purchasing workflow topics -->
+            <div class="help-category">
+                <h3>Shopping & Orders</h3>
+                <ul>
+                    <li><a href="shopping-orders.html">How to Shop</a></li>
+                    <li><a href="shopping-orders.html#cart">Using Your Cart</a></li>
+                    <li><a href="shopping-orders.html#checkout">Checkout Process</a></li>
+                    <li><a href="shopping-orders.html#orders">Order History</a></li>
+                    <li><a href="shopping-orders.html#payment">Payment Methods</a></li>
+                </ul>
+            </div>
+
+            <!-- Digital Novels category with book format and reading topics -->
+            <div class="help-category">
+                <h3>Digital Novels</h3>
+                <ul>
+                    <li><a href="digital-novels.html">About Digital Novels</a></li>
+                    <li><a href="digital-novels.html#formats">Supported Formats</a></li>
+                    <li><a href="digital-novels.html#reading">How to Read</a></li>
+                    <li><a href="digital-novels.html#download">Downloading Books</a></li>
+                    <li><a href="digital-novels.html#devices">Compatible Devices</a></li>
+                </ul>
+            </div>
+
+            <!-- Troubleshooting category with problem resolution topics -->
+            <div class="help-category">
+                <h3>Troubleshooting</h3>
+                <ul>
+                    <li><a href="troubleshooting.html">Common Issues</a></li>
+                    <li><a href="troubleshooting.html#login-issues">Login Problems</a></li>
+                    <li><a href="troubleshooting.html#payment-issues">Payment Issues</a></li>
+                    <li><a href="troubleshooting.html#download-issues">Download Problems</a></li>
+                    <li><a href="troubleshooting.html#technical">Technical Support</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact & Support category with customer service topics -->
+            <div class="help-category">
+                <h3>Contact & Support</h3>
+                <ul>
+                    <li><a href="contact-support.html">Contact Us</a></li>
+                    <li><a href="contact-support.html#faq">Frequently Asked Questions</a></li>
+                    <li><a href="contact-support.html#feedback">Send Feedback</a></li>
+                    <li><a href="contact-support.html#report">Report Issues</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for help center search functionality -->
+    <script>
+        // Simple client-side search functionality for help articles
+        document.getElementById('helpSearch').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const categories = document.querySelectorAll('.help-category');
+            
+            // Loop through each help category
+            categories.forEach(category => {
+                const links = category.querySelectorAll('a');
+                let hasVisibleLinks = false;
+                
+                // Check each link in the category for search term matches
+                links.forEach(link => {
+                    const linkText = link.textContent.toLowerCase();
+                    if (linkText.includes(searchTerm)) {
+                        // Show matching links
+                        link.parentElement.style.display = 'block';
+                        hasVisibleLinks = true;
+                    } else {
+                        // Hide non-matching links (unless search is empty)
+                        link.parentElement.style.display = searchTerm === '' ? 'block' : 'none';
+                    }
+                });
+                
+                // Show/hide entire category based on whether it has visible links
+                category.style.display = (hasVisibleLinks || searchTerm === '') ? 'block' : 'none';
+            });
+        });
+    </script>
+
+    <!-- Simple Footer with copyright information -->
+    <footer style="background: #f8f9fa; padding: 20px; margin-top: 40px; text-align: center; color: #666;">
+        <p>&copy; 2025 Digital Novels. All rights reserved. | <a href="contact-support.html" style="color: #007bff;">Need Help?</a></p>
+    </footer>
+</body>
+</html>

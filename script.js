@@ -1,0 +1,1 @@
+console.log('Digital Novels JS loaded');

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Novels Guide - Digital Novels Help</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .help-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .help-nav {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .help-section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .help-section:last-child {
+            border-bottom: none;
+        }
+        .format-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .format-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #e9ecef;
+        }
+        .format-card.recommended {
+            border-color: #28a745;
+            background: #d4edda;
+        }
+        .highlight-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .device-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .device-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .breadcrumb {
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .breadcrumb a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .step-list {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <?php include '../includes/header.php'; ?>
+    
+    <div class="help-content">
+        <div class="breadcrumb">
+            <a href="../index.php">Home</a> > <a href="index.php">Help Center</a> > Digital Novels Guide
+        </div>
+        
+        <div class="help-nav">
+            <h1>Digital Novels Guide</h1>
+            <p>Everything you need to know about digital books, formats, reading, and downloading.</p>
+        </div>
+
+        <div class="help-section" id="about">
+            <h2>About Digital Novels</h2>
+            <p>Digital novels are electronic versions of books that you can read on various devices. They offer many advantages over traditional print books:</p>
+            
+            <h3>Benefits of Digital Novels:</h3>
+            <ul>
+                <li><strong>Instant Access:</strong> Download and start reading immediately</li>
+                <li><strong>Portable Library:</strong> Carry thousands of books on one device</li>
+                <li><strong>Adjustable Text:</strong> Change font size and style for comfort</li>
+                <li><strong>Search Function:</strong> Find specific passages quickly</li>
+                <li><strong>Bookmarks:</strong> Save your place and add notes</li>
+                <li><strong>Night Mode:</strong> Read comfortably in low light</li>
+                <li><strong>Space Saving:</strong> No physical storage needed</li>
+                <li><strong>Eco-Friendly:</strong> No paper, ink, or shipping required</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <strong>Digital First:</strong> Many of our titles are available exclusively in digital format, giving you access to the latest releases immediately.
+            </div>
+        </div>
+
+        <div class="help-section" id="formats">
+            <h2>Supported File Formats</h2>
+            <p>Our digital novels are available in multiple formats to ensure compatibility with your preferred reading device:</p>
+            
+            <div class="format-grid">
+                <div class="format-card recommended">
+                    <h4>📱 EPUB</h4>
+                    <p><strong>Recommended</strong></p>
+                    <p>Universal standard, works on most devices and apps</p>
+                </div>
+                <div class="format-card">
+                    <h4>📄 PDF</h4>
+                    <p>Fixed layout, great for illustrated books</p>
+                </div>
+                <div class="format-card">
+                    <h4>📖 MOBI</h4>
+                    <p>Kindle-specific format for Amazon devices</p>
+                </div>
+                <div class="format-card">
+                    <h4>📝 TXT</h4>
+                    <p>Plain text, works on any device</p>
+                </div>
+            </div>
+            
+            <h3>Format Recommendations:</h3>
+            <ul>
+                <li><strong>EPUB:</strong> Best for most e-readers and reading apps</li>
+                <li><strong>PDF:</strong> Choose for books with special formatting or illustrations</li>
+                <li><strong>MOBI:</strong> Select if you primarily use Kindle devices</li>
+                <li><strong>TXT:</strong> Use for basic text reading on any device</li>
+            </ul>
+        </div>
+
+        <div class="help-section" id="reading">
+            <h2>How to Read Digital Novels</h2>
+            <p>Reading digital novels is simple and offers many customization options:</p>
+            
+            <div class="step-list">
+                <h3>Getting Started:</h3>
+                <ol>
+                    <li><strong>Purchase:</strong> Buy your digital novel from our catalog</li>
+                    <li><strong>Download:</strong> Get the file in your preferred format</li>
+                    <li><strong>Open:</strong> Use your favorite reading app or device</li>
+                    <li><strong>Customize:</strong> Adjust settings for your comfort</li>
+                    <li><strong>Enjoy:</strong> Start reading!</li>
+                </ol>
+            </div>
+            
+            <h3>Reading Features:</h3>
+            <ul>
+                <li><strong>Font Adjustment:</strong> Change size, style, and spacing</li>
+                <li><strong>Background Options:</strong> White, sepia, or dark mode</li>
+                <li><strong>Brightness Control:</strong> Adjust for time of day</li>
+                <li><strong>Page Navigation:</strong> Tap, swipe, or use buttons</li>
+                <li><strong>Bookmarks:</strong> Mark important pages</li>
+                <li><strong>Highlights:</strong> Mark passages for later reference</li>
+                <li><strong>Notes:</strong> Add personal comments</li>
+                <li><strong>Search:</strong> Find specific words or phrases</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <strong>Reading Tip:</strong> Most reading apps sync your progress across devices, so you can start reading on your phone and continue on your tablet.
+            </div>
+        </div>
+
+        <div class="help-section" id="download">
+            <h2>Downloading Your Books</h2>
+            <p>After purchase, downloading your digital novels is straightforward:</p>
+            
+            <div class="step-list">
+                <h3>Download Process:</h3>
+                <ol>
+                    <li><strong>Complete Purchase:</strong> Finish the checkout process</li>
+                    <li><strong>Check Email:</strong> Look for your order confirmation</li>
+                    <li><strong>Access Profile:</strong> Go to your account profile</li>
+                    <li><strong>View Orders:</strong> Find your recent purchase</li>
+                    <li><strong>Download Files:</strong> Click download links for each format</li>
+                    <li><strong>Save Locally:</strong> Store files in your preferred location</li>
+                </ol>
+            </div>
+            
+            <h3>Download Tips:</h3>
+            <ul>
+                <li><strong>Multiple Formats:</strong> You can download the same book in different formats</li>
+                <li><strong>Re-download:</strong> Access your purchases anytime from your profile</li>
+                <li><strong>Backup:</strong> Keep copies of your files in multiple locations</li>
+                <li><strong>Organization:</strong> Create folders to organize your digital library</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <strong>Unlimited Downloads:</strong> You can re-download your purchased books as many times as needed.
+            </div>
+        </div>
+
+        <div class="help-section" id="devices">
+            <h2>Compatible Devices & Apps</h2>
+            <p>Digital novels can be read on virtually any modern device:</p>
+            
+            <div class="device-grid">
+                <div class="device-card">
+                    <h4>📱 Smartphones</h4>
+                    <p>iOS, Android, Windows Phone</p>
+                </div>
+                <div class="device-card">
+                    <h4>📱 Tablets</h4>
+                    <p>iPad, Android tablets, Surface</p>
+                </div>
+                <div class="device-card">
+                    <h4>💻 Computers</h4>
+                    <p>Windows, Mac, Linux</p>
+                </div>
+                <div class="device-card">
+                    <h4>📖 E-Readers</h4>
+                    <p>Kindle, Kobo, Nook</p>
+                </div>
+                <div class="device-card">
+                    <h4>🌐 Web Browsers</h4>
+                    <p>Chrome, Safari, Firefox</p>
+                </div>
+            </div>
+            
+            <h3>Recommended Reading Apps:</h3>
+            <ul>
+                <li><strong>Adobe Digital Editions:</strong> Free, supports EPUB and PDF</li>
+                <li><strong>Apple Books:</strong> Built-in iOS app, excellent EPUB support</li>
+                <li><strong>Google Play Books:</strong> Cross-platform, cloud sync</li>
+                <li><strong>Kindle App:</strong> Amazon's app, supports MOBI and AZW</li>
+                <li><strong>Moon+ Reader:</strong> Android app with many customization options</li>
+                <li><strong>Calibre:</strong> Desktop app for managing and reading ebooks</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <strong>Cross-Platform:</strong> Most reading apps sync your library and reading progress across all your devices.
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.php" style="background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px;">← Back to Help Center</a>
+        </div>
+    </div>
+
+    <?php include '../includes/footer.php'; ?>
+</body>
+</html>

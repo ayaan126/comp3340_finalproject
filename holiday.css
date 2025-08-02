@@ -1,0 +1,80 @@
+/* Holiday Theme - Christmas Style */
+:root {
+    --primary-color: #c0392b;
+    --secondary-color: #27ae60;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --border-color: #95a5a6;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../images/snowflakes.png');
+}
+
+.hero-section {
+    background: linear-gradient(rgba(192, 57, 43, 0.9), rgba(192, 57, 43, 0.7)),
+                url('../images/holiday-hero-bg.jpg') center/cover;
+    padding: 100px 0;
+    color: white;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-color);
+    transform: scale(1.05);
+}
+
+.product-card {
+    background: white;
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-5px) rotate(1deg);
+    border-color: var(--secondary-color);
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 15px 0;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+    border-top: 3px solid var(--secondary-color);
+}
